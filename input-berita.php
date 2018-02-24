@@ -66,7 +66,7 @@
     	});
 
     	function loadDataBerita(){
-    		$.getJSON("http://onebit.asia/data/load-data-berita.php",function(result){
+    		$.getJSON("http://156.67.216.109/api/load-data-berita.php",function(result){
     			var no = 1;
     			$.each(result, function(i, field){
     				var c = `<tr class="w3-hover-blue" style="cursor:pointer">
